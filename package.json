@@ -1,9 +1,12 @@
 {
   "name": "mono-repo-with-parcel-template",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "private": false,
   "workspaces": [
     "packages/*"
+  ],
+  "files": [
+    "*"
   ],
   "scripts": {
     "build": "lerna run build",
